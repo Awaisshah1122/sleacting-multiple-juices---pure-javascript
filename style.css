@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 138, 245);
+}
+main{
+    height: 781px;
+
+}
+h1{
+    font-size: 40px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    background-color: pink;
+    align-items: center;
+    /* width: 40%; */
+    margin: 10px auto;
+    justify-content: space-between;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#type-of-shake, #shakeQutanty{
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(193, 138, 245);
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn{
+    display: flex;
+    text-align: center;
+    padding: 8px 22px;
+    color: white;
+    margin: 10px auto;
+    font-size: medium;
+    border-radius: 10px;
+    border: 3px solid rgb(253, 240, 240);
+}
+.section1{
+    width: 40%;
+    margin: auto;
+    background-color: pink;
+    /* color: pink; */
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juice Point</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Shake it - Take it</h1>
+      <section class="section1">
+        <p>
+          Select Type of Milkshake:
+          <select id="type-of-shake">
+            <!-- <option >Select A Shake</option> -->
+            <option value="150">Banana Milkshake</option>
+            <option value="220">Beetroot Milkshake</option>
+            <option value="180">Mango Milkshake</option>
+            <option value="200">Strawberry Milkshake</option>
+            <option value="160">Peach Milkshake</option>
+          </select>
+        </p>
+        <p>
+          Milikshake selected:
+          <span id="namee"></span>
+          <span id="value"></span>
+        </p>
+        <button class="btn" onclick="getOption()">Add</button>
+      </section>
+      <section class="section1">
+        <p>
+          Select Qutanty:
+          <select id="shakeQutanty">
+            <!-- <option >Select A Shake</option> -->
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+          </select>
+        </p>
+        <p>
+          Qutanty selected:
+          <!-- <span class="qutanty"></span> -->
+          <span id="valuepoint"></span>
+        </p>
+        <button class="btn" onclick="getOptionQuntaty()">Order</button>
+      </section>
+      <section class="section1" id="tbill">
+        <p>Your Order:</p>
+        <p>
+          Item:
+          <span id="tname"></span>
+          <span id="tvalue"></span>
+        </p>
+        <p>
+          Qutanty:
+          <span id="tquanty"></span>
+        </p>
+        <p>
+          Total:
+          <span id="totalbill"></span>
+        </p>
+      </section>
+              <button class="btn" onclick="printpart()">Print-Bill</button>
+
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
